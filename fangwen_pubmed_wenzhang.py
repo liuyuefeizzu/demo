@@ -1,8 +1,8 @@
 from Bio import Entrez
-my_mail='user@qq.com'
+my_mail='228701844@qq.com'
 db='pubmed'
 term='python and bioinformatics'
-term2='cobalamin synthase homo sapiens'
+term2='Exosome surface protein'
 h_search=Entrez.esearch(db=db,email=my_mail,term=term2)
 record=Entrez.read(h_search)
 #print record
